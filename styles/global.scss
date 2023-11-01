@@ -18,7 +18,7 @@ button {
   font-size: 1.5rem;
   border: none;
   color: var(--w-100);
-  background: linear-gradient(180deg, rgb(110, 56, 252) 0%, rgb(153, 61, 230) 100%);
+  background: linear-gradient(180deg, var(--mc) 0%, var(--sc) 100%);
   border-radius: 1rem;
 
   &:hover {
@@ -73,7 +73,7 @@ section {
   color: var(--w-80);
   font-size: var(--h-5-font-size);
 
-  &.vk:hover {
+  &.discord:hover {
     color: dodgerblue;
   }
 
