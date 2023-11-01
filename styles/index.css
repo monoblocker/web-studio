@@ -1,0 +1,123 @@
+.main-screen .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.main-screen .content {
+  display: flex;
+  width: 80rem;
+  gap: 5rem;
+}
+.main-screen .titles-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.main-screen .sub-title {
+  font-weight: var(--h-6-font-weight);
+  color: var(--mc);
+  font-size: var(--h-6-font-size);
+}
+.main-screen .title {
+  font-weight: var(--h-1-font-weight);
+  font-size: var(--h-1-font-size);
+}
+.main-screen .under-title-text {
+  font-weight: var(--h-5-font-weight);
+  color: var(--w-80);
+  font-size: var(--h-5-font-size);
+}
+.main-screen .laptop-image {
+  width: 38rem;
+  height: 36.6rem;
+  object-fit: cover;
+  animation-name: tilt-shaking;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
+}
+.main-screen .order-btn {
+  margin-top: 5rem;
+  padding: 2rem 9rem;
+}
+
+.modern-tech .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 9rem;
+}
+.modern-tech .icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.modern-tech .icon-wrapper.html {
+  background-color: darkorange;
+}
+.modern-tech .icon-wrapper.sass {
+  background-color: hotpink;
+}
+.modern-tech .icon-wrapper.bootstrap {
+  background-color: cornflowerblue;
+}
+.modern-tech .icon-wrapper.react {
+  background-color: dodgerblue;
+}
+.modern-tech .img {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.price-list .cards {
+  display: flex;
+  gap: 1rem;
+}
+.price-list .card-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2.5rem;
+  background-color: rgba(233, 230, 237, 0.0705882353);
+  border-radius: 2rem;
+}
+.price-list .card-title {
+  font-weight: var(--h-4-font-weight);
+  font-size: var(--h-4-font-size);
+}
+.price-list .card-description {
+  font-weight: var(--simple-font-size);
+  font-size: var(--simple-font-size);
+}
+.price-list .card-price {
+  font-weight: var(--simple-font-size);
+  font-size: var(--simple-font-size);
+}
+.price-list .card-order-btn {
+  margin-top: 5rem;
+  padding: 1rem 7rem;
+}
+
+.portfolio .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.portfolio img {
+  border-radius: 1rem;
+}
+
+/*# sourceMappingURL=index.css.map */
